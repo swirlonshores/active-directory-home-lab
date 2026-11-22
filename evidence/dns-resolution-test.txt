@@ -1,0 +1,9 @@
+Machine: CLIENT1 (Windows 11 Pro)
+Date: 2026-11-22
+Command: nslookup mydomain.com
+
+Server: 
+Address: 172.16.0.1
+
+Name: mydomain.com
+Addresses: fd17:625c:f037:2:881f:2c66:4a1e:56d1, 172.16.0.1

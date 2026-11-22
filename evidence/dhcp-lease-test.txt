@@ -1,0 +1,9 @@
+Machine: CLIENT1 (Windows 11 Pro)
+Date: 2026-11-22
+Verification: DHCP lease via ipconfig /all
+
+- Result: Pass
+- Assigned IPv4 address: 172.16.0.100/24 (within expected 172.16.0.100-172.16.0.200 scope)
+- DHCP Server: 172.16.0.1
+- Default Gateway (Option 003): 172.16.0.1
+- DNS Server (Option 006): 172.16.0.1

@@ -1,0 +1,6 @@
+Machine: CLIENT1 (Windows 11 Pro)
+Date: 2026-11-22
+Verification: systeminfo / local session check
+
+- Result: Not currently domain-joined (OS Configuration: Member Workstation; local user session active)
+- Notes: Earlier GUI domain-join testing on 2026-11-21 successfully joined CLIENT1.mydomain.com after resetting credentials in Active Directory Users and Computers on DC (see troubleshooting-log.md).

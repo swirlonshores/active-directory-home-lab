@@ -1,0 +1,7 @@
+Machine: DC (Windows Server 2019)
+Date: 2026-11-22
+Commands: Get-WindowsFeature / Get-Service / Get-ADDomain / Get-DhcpServerv4Scope
+
+- DNS service status: Running (DNS Server)
+- AD DS domain: mydomain.com (NetBIOS: MYDOMAIN, DomainMode: Windows2016Domain, DC: DC.mydomain.com)
+- Note: Get-WindowsFeature was not available in the initial PowerShell session, and Get-DhcpServerv4Scope returned permission/service errors in that session; DHCP lease delivery on 172.16.0.0/24 was later verified from CLIENT1.

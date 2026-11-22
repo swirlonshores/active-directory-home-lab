@@ -1,0 +1,23 @@
+Machine: DC (Windows Server 2019)
+Date: 2026-11-18 / 2026-11-22
+Command: ipconfig /all
+
+Host Name: DC
+Primary Dns Suffix: mydomain.com
+IP Routing Enabled: Yes
+DNS Suffix Search List: mydomain.com
+
+Ethernet adapter _INTERNET_:
+   DHCP Enabled: Yes
+   IPv4 Address: 10.0.2.15
+   Subnet Mask: 255.255.255.0
+   Default Gateway: 10.0.2.2
+   DHCP Server: 10.0.2.2
+   DNS Servers: ::1, 127.0.0.1
+
+Ethernet adapter X_Internal_X:
+   DHCP Enabled: No
+   IPv4 Address: 172.16.0.1
+   Subnet Mask: 255.255.255.0
+   Default Gateway: <none>
+   DNS Servers: ::1, 127.0.0.1
